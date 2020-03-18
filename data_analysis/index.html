@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <script src="d3.v5.js"></script>
+    <script src="data.js"></script>
+    <script src="bigdata.js"></script>
+    <script src="fisheye.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Data Vis 1</title>
+  </head>
+  <h1>Counterspeech</h1>
+<p>Each circle represents a comment. Select a circle to see the comment.</p>
+<a href="index2.html">Go to map</a>
+  <body>
+    <div id="main">
+      <input type="checkbox" class="myCheckbox" value="Positive tone"> positive
+      <input type="checkbox" class="myCheckbox" value="Negative tone"> negative
+      <input type="checkbox" class="myCheckbox" value="Humor"> humor
+      <input type="checkbox" class="myCheckbox" value="Warning"> warning
+      <input type="checkbox" class="myCheckbox" value="Affiliation"> affiliation
+      <input type="checkbox" class="myCheckbox" value="Facts/Logic"> facts<br>
+
+    </div>
+    <div id="vis1"></div>
+    <h2>Counterspeech Types:</h2>
+
+    <p >
+    <strong><span style="color:#ff9933;">Affiliation</span>
+    <span style="color:green;">Facts</span>
+    <span style="color:#6600cc;">Humor</span>
+    <span style="color:#3399ff;">Positive tone</span>
+    <span style="color:#990000;">Negative tone</span>
+    <span style="color:#cccc00;">Warning</span>
+    <span style="color:pink;">No Type</span> </strong>
+
+    <br>
+    <span style="color:#b04175;">Female</span>
+    <span style="color:#568041;">Male</span> </strong>
+
+    <br>
+    <span style="color:#3366ff;">College</span>
+    <span style="color:#ff5050;">High School</span> </strong>
+    <br>
+    <i>*the greater the radius of the circle, the more likely the type is correct</i>
+    <i>*the greater the radius of the circle, the greater the reactions</i>
+
+     <br>
+
+    </p>
+    <h3>Original Comment:</h2>
+    <span >
+    <p id="output2" class="normal"></p>
+    <h3>Reply:</h2>
+    <p id="output" class="normal"></p>
+
+  </body>
+  <script>
+      createVis1(aggregate);
+  </script>
+  <script src="update.js"></script>
+
+  <script src="buttons.js"></script>
+
+</html>

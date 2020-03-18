@@ -1,0 +1,51 @@
+circle:hover
+  {
+    stroke-width:2px;
+  }
+
+circle:hover
+  {
+    height: 120%;
+    width: 120%;
+  }
+
+svg,p { color: #333333; font-family: "Helvetica Neue",Arial,sans-serif; font-size: 16px; font-weight: 300; line-height: 1.5625; margin-bottom: 15px;   font-weight: bold;}
+h2,h1, h3{color: #333333; font-family: "Helvetica Neue",Arial,sans-serif;}
+
+.normal{
+  font-weight: normal;
+}
+
+#main button {
+  background-color: white; /* Green background */
+  border: 1px solid black; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 127px; /* Set a width if needed */
+}
+
+#main button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+#main button:hover {
+  border: 1px solid white; /* Green border */
+  font-weight: bold;
+
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

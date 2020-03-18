@@ -1,0 +1,51 @@
+state,visited,town
+Alabama,2,2
+Alaska,0,1
+Arizona,2,0
+Arkansas,1,2
+California,7,2
+Colorado,4,5
+Connecticut,0,0
+Delaware,0,0
+Florida,3,2
+Georgia,0,0
+Hawaii,0,0
+Idaho,0,0
+Illinois,0,0
+Indiana,0,0
+Iowa,2,0
+Kansas,2,2
+Kentucky,0,1
+Louisiana,0,0
+Maine,0,4
+Maryland,0,0
+Massachusetts,2,7
+Michigan,8,8
+Minnesota,1,0
+Mississippi,3,3
+Missouri,0,2
+Montana,0,0
+Nebraska,0,0
+Nevada,1,0
+New Hampshire,0,0
+New Jersey,4,4
+New Mexico,0,0
+New York,8,8
+North Carolina,0,0
+North Dakota,0,0
+Ohio,3,3
+Oklahoma,2,4
+Oregon,0,2
+Pennsylvania,3,0
+Rhode Island,0,0
+South Carolina,0,0
+South Dakota,0,0
+Tennessee,7,4
+Texas,8,5
+Utah,0,0
+Vermont,0,0
+Virginia,5,5
+Washington,0,1
+West Virginia,0,0
+Wisconsin,0,0
+Wyoming,0,0
